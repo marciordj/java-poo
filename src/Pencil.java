@@ -7,6 +7,12 @@ public class Pencil {
 
   public void status() {
     System.out.println("Uma caneta " + this.color);
+
+    if(this.tampada) {
+      System.out.println("Está tampada ? Sim");
+    } else {
+      System.out.println(" Está tampada ? Não ");
+    }
   }
 
   void rabiscar(String arg) {
